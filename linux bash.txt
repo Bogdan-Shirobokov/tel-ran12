@@ -1,0 +1,25 @@
+#!/bin/bash
+USER=Bogdan
+
+echo $USER
+for run in {1..7}
+do
+  echo "Mir Trud Mai!"
+  echo $run
+  sleep 1
+  date +"%H:%M:%S"
+done
+
+echo|cat /etc/os-release|grep -w NAME= >> mur1.txtcat
+ps -ef |grep -c 00:00 >>mur1.txt
+
+
+lscpu >>mur1.txt
+
+for run in {1..7}
+do
+
+touch $run.txt
+date +"%H:%M:%S" > $run.txt
+ps -ef |grep -c 00:00 >>$run.txt
+done
