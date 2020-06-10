@@ -1,0 +1,9 @@
+Create directory animals in /home
+Create subdirectories dogs, cats, fish in animals directory, created earlier
+Add files pluto, nemo and garfield to directories, created earlier ( pluto goes to dogs, garfield goes to cats, etc)
+In /tmp directory create file adam
+Copy file adam to /home/humans ( create directory)
+Create file evA in /tmp
+Move with renaming evA to /opt/eve
+Move file eve to humans directory ( /home/humans)
+Make sure you have adam and eve in humans directory with ls command
