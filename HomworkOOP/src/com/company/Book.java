@@ -1,6 +1,5 @@
 package com.company;
 
-import com.sun.javaws.IconUtil;
 
 class Book1 {
     String nameTheBook;
@@ -27,12 +26,14 @@ class Book1 {
 
     }
 
-    public void printRawGod(Book1[] book1s, int jaerOfPublik) {
-        Book1[] arry new Book1[book1s.length];
-        for (int i = 0; i < arry.length; i++) {
-            for (int j=0; j<arry[i];j++)
-            if (arry[i].jaerOfPublik == jaerOfPublik)
-                System.out.println(arry[i]);
+    public void printRawGod(Book1[] book1s) {
+
+            for (int i = 0; i < book1s.length; i++) {
+            for (int j=0; j<book1s.length;j++)
+            if (book1s[i].jaerOfPublik == jaerOfPublik) {
+                System.out.println(book1s[i]);
+            }
+
         }
 
     }
