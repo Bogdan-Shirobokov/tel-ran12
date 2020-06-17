@@ -5,6 +5,7 @@ public class Account {
     private Person client;
     private double ballance;
 
+
     public Account( String IBAN, Person client, double ballance){
         this.IBAN=IBAN;
         this.client=client;
@@ -28,15 +29,19 @@ public class Account {
     public double getBallance(){
         return ballance;
     }
-    private String codIBAN () {
-        String str = "";                              // ДУМАЮ КАК СДЕЛАТЬ
-        for (int i = 3; i < IBAN.length(); i++) {
-            if (IBAN.charAt(i) == '*') {
 
+
+
+
+
+    private String codIBAN () {
+        String str = "";
+        String str1 ="";                 ;// ДУМАЮ КАК СДЕЛАТЬ DE45**********34
+        for (int i = 0 ; i <IBAN.length(); i++) {
+            str +=IBAN.charAt(i);
             }
-            str += IBAN.charAt(i);
-        }
-        return str;
+
+        return str.replaceAll("[0-9]", "*");
 
     }
 }

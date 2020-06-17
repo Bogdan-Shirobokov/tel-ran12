@@ -20,6 +20,9 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -51,21 +54,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="968" height="279" key="GridCell.Tab.0.bottom" timestamp="1592326312185">
+    <state x="1217" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1592331799828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592326312185" />
-    <state width="968" height="279" key="GridCell.Tab.0.center" timestamp="1592326312184">
+    <state x="1217" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592331799828" />
+    <state x="1205" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592331610609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592326312184" />
-    <state width="968" height="279" key="GridCell.Tab.0.left" timestamp="1592326312184">
+    <state x="1205" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1592331610609" />
+    <state width="968" height="279" key="GridCell.Tab.0.bottom" timestamp="1592416492633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592326312184" />
-    <state width="968" height="279" key="GridCell.Tab.0.right" timestamp="1592326312185">
+    <state width="968" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592416492633" />
+    <state width="968" height="279" key="GridCell.Tab.0.center" timestamp="1592416492633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592326312185" />
+    <state width="968" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592416492633" />
+    <state width="968" height="279" key="GridCell.Tab.0.left" timestamp="1592416492633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592416492633" />
+    <state width="968" height="279" key="GridCell.Tab.0.right" timestamp="1592416492633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592416492633" />
   </component>
 </project>
